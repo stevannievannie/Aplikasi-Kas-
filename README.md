@@ -1,35 +1,57 @@
-# Aplikasi-Kas-
+# Aplikasi Kas 📊
 
+Aplikasi manajemen keuangan berbasis mobile untuk pencatatan transaksi kas harian dengan fitur lengkap.
 
-Aplikasi manajemen keuangan sederhana untuk pencatatan transaksi kas harian.
+## ✨ Fitur Utama
+- **Pencatatan Transaksi**
+  - Input pemasukan/pengeluaran
+  - Kategori custom
+  - Deskripsi transaksi
+- **Manajemen Data**
+  - Edit/hapus transaksi
+  - Filter berdasarkan tanggal/kategori
+  - Backup data otomatis
+- **Laporan Keuangan**
+  - Grafik cash flow
+  - Ringkasan harian/mingguan/bulanan
+  - Export PDF
 
-## Fitur Utama
-- Pencatatan pemasukan dan pengeluaran
-- Kategori transaksi yang dapat disesuaikan
-- Laporan keuangan harian/mingguan/bulanan
-- Antarmuka pengguna yang sederhana
+## 🛠 Teknologi
+- **Frontend**: React Native + TypeScript
+- **Styling**: Tailwind CSS
+- **Database**: SQLite
+- **State Management**: Redux Toolkit
+- **Testing**: Jest + React Testing Library
 
-## Teknologi
-- Dibangun dengan React Native
-- Menggunakan TypeScript untuk type safety
-- Database lokal dengan SQLite
+## 🚀 Instalasi & Setup
+1. **Prasyarat**:
+   - Node.js v16+
+   - React Native CLI
+   - Android Studio/Xcode (untuk emulator)
 
-## Instalasi
-1. Clone repository ini:
+2. **Setup Awal**:
    ```bash
    git clone https://github.com/stevannievannie/Aplikasi-Kas-.git
-   ```
-2. Install dependencies:
-   ```bash
+   cd Aplikasi-Kas-
    npm install
    ```
-3. Jalankan aplikasi:
+
+3. **Menjalankan**:
    ```bash
-   npm start
+   # Development mode
+   npm run android
+   npm run ios
+
+   # Production build
+   npm run build
    ```
 
-## Kontribusi
-Pull request dipersilakan. Untuk perubahan besar, buka issue terlebih dahulu.
+## 🤝 Kontribusi
+1. Fork project
+2. Buat branch fitur (`git checkout -b fitur-baru`)
+3. Commit perubahan (`git commit -m 'Tambahkan fitur x'`)
+4. Push ke branch (`git push origin fitur-baru`)
+5. Buat Pull Request
 
-## Lisensi
-[MIT](https://choosealicense.com/licenses/mit/)
+## 📄 Lisensi
+[MIT](https://choosealicense.com/licenses/mit/) © 2023 Stevannie Vannie
