@@ -15,6 +15,26 @@ Aplikasi manajemen keuangan berbasis mobile untuk pencatatan transaksi kas haria
   - Grafik cash flow
   - Ringkasan harian/mingguan/bulanan
   - Export PDF
+### 💰 Pemasukan (Income)
+- Mencatat semua transaksi uang masuk
+- Kategori sumber pendapatan (gaji, bonus, investasi, dll)
+- Analisis sumber pendapatan utama
+- Grafik pertumbuhan pendapatan
+
+### 💸 Pengeluaran (Expense)
+- Pencatatan pengeluaran harian
+- Kategori pengeluaran (makanan, transport, tagihan)
+- Sistem pengingat tagihan
+- Pembatasan anggaran per kategori
+
+### 📈 Laporan Keuangan
+- Perbandingan pemasukan vs pengeluaran
+- Analisis cash flow bulanan
+- Prediksi keuangan
+- Ekspor data ke Excel/PDF
+
+## 🛠 Teknologi
+[... rest of the previous README content ...]
 
 ## 🛠 Teknologi
 - **Frontend**: React Native + TypeScript
@@ -45,6 +65,8 @@ Aplikasi manajemen keuangan berbasis mobile untuk pencatatan transaksi kas haria
    # Production build
    npm run build
    ```
+
+   
 
 ## 🤝 Kontribusi
 1. Fork project
